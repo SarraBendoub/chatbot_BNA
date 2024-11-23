@@ -1,0 +1,108 @@
+{
+    "intents": [
+        {
+            "tag": "salutation",
+            "patterns": ["Bonjour", "Salut", "Hello", "Hi"],
+            "responses": ["Bonjour, comment puis-je vous aider ?", "Salut, que puis-je faire pour vous ?", "Hello, comment puis-je vous aider ?", "Hi, que puis-je faire pour vous ?"]
+          },
+          {
+            "tag": "au revoir",
+            "patterns": ["Au revoir", "A bientôt", "Bye", "Ciao"],
+            "responses": ["Au revoir, à la prochaine fois !", "A bientôt, passez une bonne journée !", "Bye, à la prochaine fois !", "Ciao, à bientôt !"]
+          },
+          {
+            "tag": "informations",
+            "patterns": ["Quelles sont vos heures d'ouverture ?", "Où est- situé votre siége ?"],
+            "responses": ["Nous sommes ouverts du lundi au vendredi de 9h à 18h. Nous sommes situés au Avenue Mohamed V Bab Bhar 1002 Tunis.\n nos produits et services sont variés depent de votre besoins "]
+          },
+          {
+            "tag": "remerciements",
+            "patterns": ["Merci beaucoup", "Merci pour votre aide", "Je vous suis reconnaissant(e)"],
+            "responses": ["De rien, c'est un plaisir de vous aider !", "Je suis heureux(se) d'avoir pu vous aider.", "N'hésitez pas à me contacter si vous avez d'autres questions !"]
+                         
+          },
+
+      {
+        "tag": "informations_generales",
+        "patterns": [
+          "Qu'est-ce que Mandat Cash ?"
+        ],
+        "responses": [
+          "Mandat Cash est un service de transfert d'argent proposé par la BNA. Il permet d'envoyer des mandats instantanément."]
+      },
+      {
+        "tag": "envoi_mandat",
+        "patterns": [
+          "Comment envoyer un mandat avec Mandat Cash ?",
+          "Quelles sont les options d'envoi de mandat avec Mandat Cash ?"
+        ],
+        "responses": [
+          "Les clients de la BNA peuvent envoyer des mandats en espèces ou par débit de leur compte courant ou compte d'épargne, ainsi qu'à distance via les solutions BNA eBanking et BNA mBanking.\n Les non-clients de la BNA peuvent également envoyer des mandats en espèces auprès de toutes les agences de la banque."
+        ]
+      },
+      {
+        "tag": "encaissement_mandat",
+        "patterns": [
+          "Comment encaisser un mandat avec Mandat Cash ?",
+          "Quelles sont les options d'encaissement de mandat avec Mandat Cash ?"
+        ],
+        "responses": [
+          "Pour encaisser son mandat via nos GAB, il suffit de :\n Sélectionner la fonctionnalité 'Encaissement de mandat' \n Introduire son numéro de CIN, le montant du mandat et le code confidentiel.\nPour encaisser son mandat dans nos agences, il suffit de se présenter avec sa carte d’identité et le code confidentiel relatif au mandat à encaisser."
+        ]
+      },
+      {
+        "tag": "client_bna",
+        "patterns": [
+          "Dois-je être client de la BNA pour utiliser Mandat Cash ?",
+          "Quels sont les avantages de Mandat Cash pour les clients de la BNA ?"
+        ],
+        "responses": [
+          "Le service Mandat Cash est disponible pour toute personne physique, qu'elle soit cliente ou non de la BNA."
+        ]
+      },
+      {
+        "tag": "tarifs",
+        "patterns": [
+          "Combien coûte l'envoi d'un mandat avec Mandat Cash ?",
+          "Quels sont les tarifs pour utiliser Mandat Cash ?"
+        ],
+        "responses": [
+          "Les tarifs pour envoyer un mandat dépendent du montant envoyé et du canal d'envoi. Vous pouvez consulter les tarifs sur le app ou nos agences"]
+      },
+      {
+        "tag": "limites",
+        "patterns": [
+          "Quelles sont les limites pour envoyer un mandat avec Mandat Cash ?",
+          "Y a-t-il des limites pour l'envoi de mandats avec Mandat Cash ?"
+        ],
+        "responses": [
+          "Les limites pour envoyer un mandat dépendent du canal d'envoi et du pays de destination. Vous pouvez consulter les limites sur le site web de la BNA ou en agence."
+        ]
+      },
+
+      {
+        "tag": "sécurité",
+        "patterns": [
+          "Est-ce que Mandat Cash est sécurisé ?",
+          "Quelles sont les mesures de sécurité prises par la BNA pour Mandat Cash ?"
+        ],
+        "responses": [
+          "Oui, Mandat Cash est sécurisé. La BNA prend des mesures de sécurité pour protéger vos données personnelles et financières lors de l'envoi et de l'encaissement de mandats.\n En outre, le bénéficiaire reçoit un code confidentiel par SMS pour encaisser le mandat."
+        ]
+       },
+   
+     {
+        "tag": "avantages de mandat cash",
+        "patterns": [
+            "Quels sont les avantages du service Mandat Cash ?",
+            "Pourquoi utiliser le service Mandat Cash ?",
+            "Quels sont les points forts de Mandat Cash ?"  
+        ],
+        "responses": [
+            "Les avantages de Mandat Cash sont nombreux : rapidité, sécurité, flexibilité, diversité des canaux d'envoi et d'encaissement, notification par SMS, ...",
+            "Avec Mandat Cash, vous pouvez envoyer de l'argent instantanément et en toute sécurité, à distance ou dans nos agences",
+            "Le Mandat Cash est un moyen pratique et fiable pour transférer de l'argent, que vous soyez client ou non de la BNA" 
+        ]
+    }
+    ] 
+}
